@@ -7,6 +7,6 @@ spec:
     - image: localhost/simple-node
       name: simple-node
       ports:
-        - containerPort: 8080
+        - containerPort: 3000
           name: http
           protocol: TCP
