@@ -4,7 +4,7 @@ metadata:
   name: simple-node
 spec:
   containers:
-    - image: simple-node:v1 
+    - image: simple-node:v1
       name: simple-node
       ports:
         - containerPort: 3000
